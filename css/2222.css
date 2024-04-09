@@ -4,6 +4,18 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin : -3px;
     width: 100%;
+    @media(max-width :1450px){
+        #grid {
+            display: block;
+        }
+        #grid ol {
+            border-right: none;
+        }
+        h1 {
+            border-bottom: none;
+        }
+
+    }
     
     
  }
